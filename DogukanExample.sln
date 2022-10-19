@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JWT", "JWT", "{AFC80E36-959F-4BC2-AC78-E68916EABFF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SIGNALR", "SIGNALR", "{3A4471CA-C26E-4012-8579-642620300438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.API", "JWT.API\JWT.API.csproj", "{F6B662DF-FBC3-476A-B110-5467C4D75E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTW.CLIENT", "JTW.CLIENT\JTW.CLIENT.csproj", "{8C403CAC-E3E7-48F9-A953-393E9CC00F62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6B662DF-FBC3-476A-B110-5467C4D75E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B662DF-FBC3-476A-B110-5467C4D75E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B662DF-FBC3-476A-B110-5467C4D75E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B662DF-FBC3-476A-B110-5467C4D75E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C403CAC-E3E7-48F9-A953-393E9CC00F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C403CAC-E3E7-48F9-A953-393E9CC00F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C403CAC-E3E7-48F9-A953-393E9CC00F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C403CAC-E3E7-48F9-A953-393E9CC00F62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6B662DF-FBC3-476A-B110-5467C4D75E3B} = {AFC80E36-959F-4BC2-AC78-E68916EABFF9}
+		{8C403CAC-E3E7-48F9-A953-393E9CC00F62} = {AFC80E36-959F-4BC2-AC78-E68916EABFF9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9666EE3B-042A-4D7C-ACB4-736D8943AA25}
+	EndGlobalSection
+EndGlobal
